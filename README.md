@@ -237,8 +237,6 @@ This mode:
 - applies rolling IC filtering
 - builds percentile-based BUY/SELL signals
 
-This is closer to how many quant equity systems actually work.
-
 ---
 
 # Legacy Mode
@@ -277,7 +275,6 @@ instead of naïve:
 - “BUY means stock goes up”
 - “SELL means stock goes down”
 
-This made the research process much more honest.
 
 ---
 
@@ -450,37 +447,6 @@ instead of a black-box “AI decides everything” system.
 | Config | dotenv |
 | Feeds | feedparser |
 
----
-
-# Interview Talking Points
-
-This project demonstrates:
-
-- async system design
-- event-driven architecture
-- multi-agent orchestration
-- signal fusion
-- quantitative evaluation
-- walk-forward testing
-- modular research infrastructure
-
-A strong way to describe it:
-
-> “I built a modular multi-agent research system that converts heterogeneous market inputs into normalized events, routes them asynchronously through specialist agents, and fuses their outputs into tradable signals with walk-forward evaluation.”
-
----
-
-# Future Improvements
-
-Possible extensions:
-- broker integration
-- portfolio optimizer
-- risk management layer
-- vector database / RAG memory
-- reinforcement learning for fusion
-- Kafka / Redis streaming
-- online learning
-- distributed workers
 
 ---
 
