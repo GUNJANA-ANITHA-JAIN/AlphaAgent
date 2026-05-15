@@ -254,27 +254,17 @@ Useful for comparing old vs new approaches.
 
 ---
 
-# Why Early PnL Looked Weak
+# Evaluation Approach
 
-One important lesson from the project:
+AlphaAgent includes walk-forward backtesting and cross-sectional evaluation tools.
 
-Good-looking signals do not automatically mean profitable trading.
+The default backtest engine evaluates:
+- relative stock strength
+- factor ranking quality
+- signal consistency
+- short-horizon forward returns
 
-Early versions had:
-- weak Information Coefficient (IC)
-- noisy directional predictions
-- poor absolute forecasting
-
-So evaluation shifted toward:
-- cross-sectional ranking
-- relative strength
-- dollar-neutral books
-- decile analysis
-
-instead of naïve:
-- “BUY means stock goes up”
-- “SELL means stock goes down”
-
+Metrics such as Information Coefficient (IC), percentile analysis, and dollar-neutral simulations are included to help measure predictive quality beyond simple directional accuracy.
 
 ---
 
