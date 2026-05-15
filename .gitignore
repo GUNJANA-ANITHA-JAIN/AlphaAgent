@@ -1,0 +1,14 @@
+# Bytecode / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+.env.local
+docs/

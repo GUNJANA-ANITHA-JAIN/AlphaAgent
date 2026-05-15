@@ -1,0 +1,17 @@
+# Alpha Signal Ingestion Agent
+# ─────────────────────────────────────────────────────────
+# requirements.txt
+
+yfinance>=0.2.36       # Price & OHLCV data (free)
+feedparser>=6.0.11     # RSS news feeds (free)
+requests>=2.31.0       # HTTP (EDGAR, StockTwits, etc.)
+python-dotenv>=1.0.0   # Load HF_TOKEN and other vars from .env
+
+# FinBERT sentiment (ProsusAI/finbert via Hugging Face)
+transformers>=4.36.0
+torch>=2.1.0
+
+# Optional: upgrade path for production
+# confluent-kafka       # Replace EventBus with Kafka
+# redis                 # Replace DedupStore with Redis
+# polygon-api-client    # Replace yFinance with Polygon.io (paid)
