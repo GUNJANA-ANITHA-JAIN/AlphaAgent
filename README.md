@@ -1,6 +1,6 @@
 # AlphaAgent
 
-AlphaAgent is a research-style multi-agent trading signal system built in Python.
+AlphaAgent is a modular multi-agent trading signal system built in Python for quantitative research and experimentation.
 
 It takes noisy market inputs — prices, news, filings, and social sentiment — converts them into a single standard format, lets multiple specialist agents analyze them, and combines their opinions into one final trading signal:
 
